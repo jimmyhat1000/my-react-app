@@ -3,9 +3,9 @@ import { Link } from 'react-router-dom';
 
 function Home() {
   return (
-    <div>
+    <div id="centered-content">
       <h1>Home Page</h1>
-      <Link to="/">Go to Home</Link>
+      <p>This is the home page</p>
     </div>
   );
 }

@@ -3,9 +3,9 @@ import { Link } from 'react-router-dom';
 
 function Contact() {
   return (
-    <div>
+    <div id="centered-content">
       <h1>Contact Page</h1>
-      <Link to="/">Go to Home</Link>
+      <p>This is the contact page</p>
     </div>
   );
 }

@@ -4,6 +4,10 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import Home from './Home';
+import Categories from './Categories';
+import Contact from './Contact';
+
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(

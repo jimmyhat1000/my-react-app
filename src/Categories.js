@@ -3,9 +3,9 @@ import { Link } from 'react-router-dom';
 
 function Categories() {
   return (
-    <div>
+    <div id="centered-content">
       <h1>Categories Page</h1>
-      <Link to="/">Go to Home</Link>
+      <p>This is the categories page</p>
     </div>
   );
 }

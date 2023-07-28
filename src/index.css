@@ -20,10 +20,42 @@ code {
 /* Remove the jumbotron's default bottom margin */
  .jumbotron {
   margin-bottom: 0;
+  padding-top: 5px;
+  padding-bottom: 10px;
 } 
+
+.jumbotron p{
+  margin-bottom: 5px;
+}
+
+.jumbotron h1 {
+  margin-top: 10px;
+  margin-bottom: 5px;
+  font-size: 50px;
+  text-align: left;
+}
 
 /* Add a gray background color and some padding to the footer */
 footer {
   background-color: #f2f2f2;
   padding: 25px;
 }
+
+#centered-content{
+  max-width: 1600px;
+  margin: 0 auto;
+  padding-left: 15px;
+  padding-right: 15px;
+  min-width: none;
+}
+
+#myNavbar{
+  padding-left: 0;
+}
+
+
+
+
+
+
+
