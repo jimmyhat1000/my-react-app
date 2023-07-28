@@ -2,7 +2,7 @@ import React from 'react';
 import './App.css';
 import OnlineStore from './OnlineStore';
 
-import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom'; // Importing Switch as named import only
+import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom'; // Importing Routes as named import only
 import Home from './Home';
 import Categories from './Categories';
 import Contact from './Contact';
@@ -25,17 +25,11 @@ function App() {
           </ul>
         </nav>
 
-        <Switch>
-          <Route path="/Categories">
-            <Categories />
-          </Route>
-          <Route path="/contact">
-            <Contact />
-          </Route>
-          <Route path="/">
-            <Home />
-          </Route>
-        </Switch>
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/Categories" element={<Categories />} />
+          <Route path="/contact" element={<Contact />} />
+        </Routes>
       </div>
     </Router>
   );
